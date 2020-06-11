@@ -8,7 +8,7 @@ class Cards extends Component {
      }
 
     componentDidMount() {
-        fetch("https://reqres.in/api/users?page=2")
+        fetch("https://********.in/api/users?page=2")
           .then(res => res.json())
           .then(
             (result) => {
